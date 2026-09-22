@@ -59,9 +59,17 @@ git remote set-url origin https://github.com/TU_USUARIO/flores-amarillas.git
 git push -u origin main
 ```
 
-## Desplegar
+## Desplegar en GitHub Pages
 
-Lo más simple es [Vercel](https://vercel.com): importa el repo de GitHub y despliega. El comando de build es `pnpm build`.
+El workflow [`.github/workflows/nextjs.yml`](.github/workflows/nextjs.yml) construye el sitio estático y lo publica en Pages.
+
+1. En el repo: **Settings → Pages → Build and deployment → Source → GitHub Actions**
+2. Haz push a `main` (o corre el workflow manualmente en la pestaña Actions)
+3. La URL queda en: `https://bakugod777.github.io/rosAma/`
+
+## Desplegar en Vercel
+
+También puedes importar el repo en [Vercel](https://vercel.com). El comando de build es `pnpm build`.
 
 ## Licencia
 
