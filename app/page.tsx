@@ -96,7 +96,6 @@ export default function Page() {
             <br />
             <em>un día te daré un gran ramo</em>
           </h1>
-          <p className="message-body">de esas que puedan llenar un poco tu corazón.</p>
           <div className="message-line" aria-hidden="true" />
           <ul className="petal-memories" aria-label="Tus respuestas convertidas en pétalos">
             {ritualCards.map((item) => (
