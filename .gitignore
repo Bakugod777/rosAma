@@ -21,5 +21,9 @@ yarn-error.log*
 next-env.d.ts
 *.tsbuildinfo
 
+# next agent scaffolding
+AGENTS.md
+CLAUDE.md
+
 # vercel
 .vercel

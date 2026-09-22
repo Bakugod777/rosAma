@@ -119,7 +119,6 @@ export default function Page() {
     <main className="game-page">
       <div className="game-noise" aria-hidden="true" />
       <div className="botanical-plane" aria-hidden="true">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/spring-botanical.png" alt="" />
       </div>
 
