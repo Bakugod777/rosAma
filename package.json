@@ -2,7 +2,11 @@
   "name": "flores-amarillas",
   "version": "0.1.0",
   "private": true,
+  "description": "Ritual digital de flores amarillas: tres preguntas y una flor que nace al final.",
   "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev --port 43123",
     "build": "next build",
